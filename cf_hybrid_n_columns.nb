@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      3370,        101]
-NotebookOptionsPosition[      2801,         85]
-NotebookOutlinePosition[      3142,        100]
-CellTagsIndexPosition[      3099,         97]
+NotebookDataLength[      3478,        102]
+NotebookOptionsPosition[      2909,         86]
+NotebookOutlinePosition[      3250,        101]
+CellTagsIndexPosition[      3207,         98]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -46,11 +46,12 @@ Cell[BoxData[{
 
 Cell[BoxData[
  RowBox[{"Export", "[", 
-  RowBox[{"\"\<mathematica_cf_q2Q0\>\"", ",", "m", ",", "\"\<XLSX\>\""}], 
-  "]"}]], "Input",
+  RowBox[{"\"\<mathematica_cf_q2Q0.xlsx\>\"", ",", "m", ",", "\"\<XLSX\>\""}],
+   "]"}]], "Input",
  CellChangeTimes->{{3.833722397125375*^9, 3.8337224308587728`*^9}, 
-   3.833722769601619*^9, {3.835448803317732*^9, 
-   3.8354488115951943`*^9}},ExpressionUUID->"963b9ba4-5126-42b9-9102-\
+   3.833722769601619*^9, {3.835448803317732*^9, 3.8354488115951943`*^9}, {
+   3.835449527954186*^9, 
+   3.835449545375233*^9}},ExpressionUUID->"963b9ba4-5126-42b9-9102-\
 45c1209e83a2"],
 
 Cell[BoxData[
@@ -76,11 +77,11 @@ Cell[BoxData[
 
 Cell[BoxData[
  RowBox[{"Export", "[", 
-  RowBox[{"\"\<mathematica_cf_qQ0\>\"", ",", "m2", ",", "\"\<XLSX\>\""}], 
-  "]"}]], "Input",
+  RowBox[{"\"\<mathematica_cf_qQ0.xlsx\>\"", ",", "m2", ",", "\"\<XLSX\>\""}],
+   "]"}]], "Input",
  CellChangeTimes->{{3.8337230020584726`*^9, 3.833723040177575*^9}, {
-  3.835448813663521*^9, 
-  3.835448815286292*^9}},ExpressionUUID->"a2e111bb-f819-4b9c-bbb1-\
+  3.835448813663521*^9, 3.835448815286292*^9}, {3.835449550606985*^9, 
+  3.8354495526798477`*^9}},ExpressionUUID->"a2e111bb-f819-4b9c-bbb1-\
 356f6a656b04"]
 },
 WindowSize->{759, 553},
@@ -100,9 +101,9 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[558, 20, 869, 24, 48, "Input",ExpressionUUID->"4e6a845d-80e0-4c81-b821-51b88362b279"],
-Cell[1430, 46, 335, 7, 28, "Input",ExpressionUUID->"963b9ba4-5126-42b9-9102-45c1209e83a2"],
-Cell[1768, 55, 717, 19, 28, "Input",ExpressionUUID->"70f3b195-b21a-4104-a7e7-002dbcc94f78"],
-Cell[2488, 76, 309, 7, 28, "Input",ExpressionUUID->"a2e111bb-f819-4b9c-bbb1-356f6a656b04"]
+Cell[1430, 46, 390, 8, 28, "Input",ExpressionUUID->"963b9ba4-5126-42b9-9102-45c1209e83a2"],
+Cell[1823, 56, 717, 19, 28, "Input",ExpressionUUID->"70f3b195-b21a-4104-a7e7-002dbcc94f78"],
+Cell[2543, 77, 362, 7, 28, "Input",ExpressionUUID->"a2e111bb-f819-4b9c-bbb1-356f6a656b04"]
 }
 ]
 *)
