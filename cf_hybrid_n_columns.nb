@@ -1,0 +1,109 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3370,        101]
+NotebookOptionsPosition[      2801,         85]
+NotebookOutlinePosition[      3142,        100]
+CellTagsIndexPosition[      3099,         97]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{"SetDirectory", "[", 
+  RowBox[{"NotebookDirectory", "[", "]"}], "]"}], "\n", 
+ RowBox[{"m", " ", "=", " ", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"NIntegrate", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"Gamma", "[", 
+          RowBox[{"256", ",", 
+           RowBox[{"2", "*", "t"}]}], "]"}], "/", 
+         RowBox[{"Gamma", "[", "256", "]"}]}], ")"}], "^", "i"}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"t", ",", "0", ",", "Infinity"}], "}"}]}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", "100"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"j", ",", "1"}], "}"}]}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.8337223326150885`*^9, 3.833722376482538*^9}, {
+  3.8354489261071672`*^9, 
+  3.835448930292077*^9}},ExpressionUUID->"4e6a845d-80e0-4c81-b821-\
+51b88362b279"],
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<mathematica_cf_q2Q0\>\"", ",", "m", ",", "\"\<XLSX\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.833722397125375*^9, 3.8337224308587728`*^9}, 
+   3.833722769601619*^9, {3.835448803317732*^9, 
+   3.8354488115951943`*^9}},ExpressionUUID->"963b9ba4-5126-42b9-9102-\
+45c1209e83a2"],
+
+Cell[BoxData[
+ RowBox[{"m2", " ", "=", " ", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"NIntegrate", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"Gamma", "[", 
+          RowBox[{"256", ",", "t"}], "]"}], "/", 
+         RowBox[{"Gamma", "[", "256", "]"}]}], ")"}], "^", "i"}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"t", ",", "0", ",", "Infinity"}], "}"}]}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", "100"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"j", ",", "1"}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8337229839399147`*^9, 3.8337229906716523`*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"70f3b195-b21a-4104-a7e7-002dbcc94f78"],
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<mathematica_cf_qQ0\>\"", ",", "m2", ",", "\"\<XLSX\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8337230020584726`*^9, 3.833723040177575*^9}, {
+  3.835448813663521*^9, 
+  3.835448815286292*^9}},ExpressionUUID->"a2e111bb-f819-4b9c-bbb1-\
+356f6a656b04"]
+},
+WindowSize->{759, 553},
+WindowMargins->{{Automatic, 17}, {1, Automatic}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 869, 24, 48, "Input",ExpressionUUID->"4e6a845d-80e0-4c81-b821-51b88362b279"],
+Cell[1430, 46, 335, 7, 28, "Input",ExpressionUUID->"963b9ba4-5126-42b9-9102-45c1209e83a2"],
+Cell[1768, 55, 717, 19, 28, "Input",ExpressionUUID->"70f3b195-b21a-4104-a7e7-002dbcc94f78"],
+Cell[2488, 76, 309, 7, 28, "Input",ExpressionUUID->"a2e111bb-f819-4b9c-bbb1-356f6a656b04"]
+}
+]
+*)
+
