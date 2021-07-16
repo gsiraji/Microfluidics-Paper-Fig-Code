@@ -1,6 +1,6 @@
 % vid_process.m generates figure 5. To create the exact figure, ...
 % the following 2 files must be available: ... 
-% 'vid_data.xlsx' manually tracked f data and 'du.mp4' the experiment video,
+% 'vid_data.xlsx' manually tracked f data and 'du.avi' the experiment video,
 
 
 close all; clear all;
@@ -10,11 +10,15 @@ plot_data = readtable('vid_data.xlsx','Sheet',1);
 vtime = table2array(plot_data(:,1)); % store the time data
 tracked = table2array(plot_data(:,2)); % store the manually tracked f 
 
+% download the video from the online source. If the link is broken, check https://www.pnas.org/content/112/5/1422/tab-figures-data for the latest link
+url ="https://static-movie-usa.glencoesoftware.com/source/10.1073/884/ba65404748f24af2a4b39f93f759f7bd00e9c81a/pnas.1424111112.sm02.avi";
+filename = 'du.avi';
+outfilename = websave(filename, url);
 
 %read video and extract the normalized brightness slope
-vid = VideoReader('du.mp4');
+vid = VideoReader('du.avi');
 % get the length of the video in seconds
-info = mmfileinfo('du.mp4');
+info = mmfileinfo('du.avi');
 vid_duration = info.Duration;
 % clogging occurs from time 20.7666s to time 37.5
 cloggingstarts = 20.7666;
