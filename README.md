@@ -22,4 +22,4 @@ A description of each file:
 
 
 
-7. 'cf_theory_multiple_columns.nb' is the Mathematica notebook that calculates the hybrid theory results for the multiple-column devices with constant total flow. 
+7. 'cf_hybrid_n_columns.nb' is the Mathematica notebook that calculates the hybrid theory results for the multiple-column devices with constant total flow. 
