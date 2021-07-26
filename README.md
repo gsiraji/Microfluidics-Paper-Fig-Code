@@ -3,7 +3,7 @@ All the code used to generate figures in the microfluidics paper
 
 A description of each file:
 
-1. vid_process.m generates figure 5. To create the exact figure, the following 2 files must be available: 'vid_data.xlsx' manually tracked f data and 'du.mp4' the experiment video. 
+1. video_process.m generates figure 5. To create the exact figure, the following 2 files must be available: 'vid_tracked_data.xlsx' manually tracked f data and 'du.avi' the experiment video. Depending on your operating system, you may need additional codec to read the .avi file while running this code. Please check the code for the latest links to the data table and video.
 
 
 2. ode_jump.m generates figures 4 and 8 by running a stochastic simulation of clogging for 3 devices with different number of columns and solving the ODE system numerically. It does not require any additional files to run.
